@@ -196,6 +196,7 @@ Q_GUI_EXPORT int qt_defaultDpiX()
     dpi = S60->defaultDpiX;
 #endif // Q_WS_X11
 
+	dpi = 72;
     return dpi;
 }
 
@@ -226,6 +227,7 @@ Q_GUI_EXPORT int qt_defaultDpiY()
     dpi = S60->defaultDpiY;
 #endif // Q_WS_X11
 
+	dpi = 72;
     return dpi;
 }
 
